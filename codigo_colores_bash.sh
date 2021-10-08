@@ -60,7 +60,7 @@
 #| ----- | -------- |
 #| \e[K  | No Color |
 
-# High Intensty
+# High Intensity
 
 #| Value    | Color  |
 #| -------- | ------ |
@@ -73,7 +73,7 @@
 #| \e[0;96m | Cyan   |
 #| \e[0;97m | White  |
 
-# Bold High Intensty
+# Bold High Intensity
 
 #| Value    | Color  |
 #| -------- | ------ |
@@ -86,7 +86,7 @@
 #| \e[1;96m | Cyan   |
 #| \e[1;97m | White  |
 
-# High Intensty backgrounds
+# High Intensity backgrounds
 
 #| Value     | Color  |
 #| --------- | ------ |
@@ -129,9 +129,9 @@ echo -ne "\e[0;36m Regular color:\t\t\t\e[0m";		echo "\e[0;36m Regular color \e[
 echo -ne "\e[1;36m Bold:\t\t\t\t\e[0m"; 			echo "\e[1;36m Bold \e[0m"
 echo -ne "\e[4;36m Underline:\t\t\t\e[0m"; 			echo "\e[4;36m Underline \e[0m"
 echo -ne "\e[46m Background:\t\t\t\e[0m"; 			echo "\e[46m Background \e[0m"
-echo -ne "\e[0;96m High Intensty:\t\t\t\e[0m";			echo "\e[0;96m High Intensty \e[0m"
-echo -ne "\e[1;96m Bold High Intensty:\t\t\e[0m";		echo "\e[1;96m Bold High Intensty \e[0m"
-echo -ne "\e[0;106m High Intensty backgrounds:\t\e[0m";	echo "\e[0;106m High Intensty backgrounds \e[0m"
+echo -ne "\e[0;96m High Intensity:\t\t\t\e[0m";			echo "\e[0;96m High Intensity \e[0m"
+echo -ne "\e[1;96m Bold High Intensity:\t\t\e[0m";		echo "\e[1;96m Bold High Intensity \e[0m"
+echo -ne "\e[0;106m High Intensity backgrounds:\t\e[0m";	echo "\e[0;106m High Intensity backgrounds \e[0m"
 
 echo -e "\t${red}C${end}${green}o${end}${yellow}l${end}${blue}o${end}${purple}r${end}${cyan}s${end}${white}:${end}"
 echo -e "${red} Red${end}"
