@@ -124,10 +124,20 @@ function ctrl_c(){
 	exit 1
 }
 
-echo -e "${red}Rojo${end}"
-echo -e "${green}Verde${end}"
-echo -e "${yellow}Amarillo${end}"
-echo -e "${blue}Azul${end}"
-echo -e "${purple}Morado${end}"
-echo -e "${cyan}Cyan${end}"
-echo -e "${white}Blanco${end}"
+echo -e "\t\e[4;33mKind of colors:\e[0m"
+echo -ne "\e[0;36m Regular color:\t\t\t\e[0m";		echo "\e[0;36m Regular color \e[0m"
+echo -ne "\e[1;36m Bold:\t\t\t\t\e[0m"; 			echo "\e[1;36m Bold \e[0m"
+echo -ne "\e[4;36m Underline:\t\t\t\e[0m"; 			echo "\e[4;36m Underline \e[0m"
+echo -ne "\e[46m Background:\t\t\t\e[0m"; 			echo "\e[46m Background \e[0m"
+echo -ne "\e[0;96m High Intensty:\t\t\t\e[0m";			echo "\e[0;96m High Intensty \e[0m"
+echo -ne "\e[1;96m Bold High Intensty:\t\t\e[0m";		echo "\e[1;96m Bold High Intensty \e[0m"
+echo -ne "\e[0;106m High Intensty backgrounds:\t\e[0m";	echo "\e[0;106m High Intensty backgrounds \e[0m"
+
+echo -e "\t${red}C${end}${green}o${end}${yellow}l${end}${blue}o${end}${purple}r${end}${cyan}s${end}${white}:${end}"
+echo -e "${red} Red${end}"
+echo -e "${green} Green${end}"
+echo -e "${yellow} Yellow${end}"
+echo -e "${blue} Blue${end}"
+echo -e "${purple} Purple${end}"
+echo -e "${cyan} Cyan${end}"
+echo -e "${white} White${end}"
